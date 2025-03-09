@@ -20,22 +20,11 @@ li {
     list-style-type: none;
 }
 
-.header,
-.hero,
-.footer {
+.header {
     background-color: #1f2937;
-}
-
-.hero .main-text {
-    color: #f9faf8;
-    font-size: 48px;
-    font-weight: 900;
-}
-
-.hero .secondary-text,
-.header .link-text {
-    color: #e5e7eb;
-    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 300px;
 }
 
 .header .logo-text {
@@ -43,45 +32,25 @@ li {
     font-size: 24px;
 }
 
-.button {
-    background-color: #3882f6;
-}
-
-.information .main-text {
-    color: #1f2937;
-    font-size: 36px;
-    font-weight: 900;
-}
-
-.information .secondary-text {
-    color: #6d747d;
-    font-size: 18px;
-}
-
-.quote {
-    background-color: #e5e7eb;
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    padding: 25px 300px;
-}
-
 .header .link-list {
     display: flex;
     gap: 30px;
 }
 
+.header .link-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
 .hero {
     align-items: center;
+    background-color: #1f2937;
     display: flex;
     justify-content: space-between;
     padding: 150px 300px;
 }
 
-.hero .text,
-.hero .placeholder-image {
+.hero .text {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -90,7 +59,19 @@ li {
     width: 600px;
 }
 
+.hero .main-text {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero .secondary-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
 .hero .button {
+    background-color: #3882f6;
     border: none;
     border-radius: 10px;
     color: #f9f1f8;
@@ -103,7 +84,13 @@ li {
 .hero .placeholder-image {
     align-items: center;
     background-color: #6d747d;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 300px;
     justify-content: center;
+    justify-content: center;
+    width: 600px;
 }
 
 .information {
@@ -114,6 +101,12 @@ li {
     justify-content: center;
     padding: 50px 400px;
     padding-bottom: 150px;
+}
+
+.information .main-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
 }
 
 .information .card-container {
@@ -130,6 +123,11 @@ li {
     text-align: center;
 }
 
+.information .secondary-text {
+    color: #6d747d;
+    font-size: 18px;
+}
+
 .information .card .illustration {
     border: 5px solid #3882f6;
     border-radius: 20px;
@@ -138,6 +136,7 @@ li {
 }
 
 .quote {
+    background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -171,8 +170,7 @@ li {
     padding: 50px 150px;
 }
 
-.call-to-action .main-text,
-.call-to-action .button {
+.call-to-action .main-text {
     color: #f9f1f8;
 }
 
@@ -181,14 +179,17 @@ li {
 }
 
 .call-to-action .button {
-    border: 2px solid white;
+    background-color: #3882f6;
+    border: 2px solid #e5e7eb;
     border-radius: 10px;
+    color: #f9f1f8;
     font-size: 18px;
     font-weight: bold;
     padding-inline: 40px;
 }
 
 .footer {
+    background-color: #1f2937;
     color: #e5e7eb;
     display: flex;
     font-size: 18px;
