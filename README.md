@@ -1,4 +1,4 @@
-# Landing Page
+# [Landing Page](https://enetwarch.github.io/odin-landing-page/)
 
 This is an assignment project provided by [The Odin Project](https://www.theodinproject.com/). It is found under the foundations section of the curriculum. This is a replica of the provided resources listed below.
 
